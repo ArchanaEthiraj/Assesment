@@ -1,0 +1,462 @@
+.bar{
+    background-color:#02396F;
+    color: #9fc4ea;
+    display: flex;
+}
+.mail{
+    margin-left: 17%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+.mail:hover, .phone:hover, .google:hover, .pin:hover, .twitter:hover, .fb:hover, .dribble:hover{
+    color: black;
+}
+.phone{
+    margin-left: 4%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.google{
+    margin-left: 25%;
+    padding: 6px;
+}
+.pin, .twitter, .fb, .dribble{
+    margin-left: 1%;
+    padding: 6px;
+}
+.estate{
+    padding: 2%;
+}
+.text{
+    font-weight: bold;
+    margin-left: 16%;
+    align-items: center;
+}
+.wp{
+    margin-left: 17%;
+}
+.home{
+    margin-left: 25%;
+}
+.about, .agents, .prop, .blog, .contact{
+    margin-left: 2%;
+}
+.arrow{
+    background-color: rgba(0,92,179,255);
+    color: antiquewhite;
+    margin-top:-85px;
+    margin-right:80%;
+    max-height:20%;
+    padding: 30px;
+}
+.family{
+    text-align: center;
+    background-size: 100% 100% !important;
+    background-image:url("family.jpg"); 
+    background-repeat: no-repeat; 
+}
+.content1{
+    text-indent: 50px;
+    padding-top: 60%;
+    color:#d7d0d2;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content2{
+    text-indent: 50px;
+    color: #d7d0d2;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    display: flex;
+   justify-content: center;
+   margin: 2%;
+}
+.logo1, .logo2, .logo3, .logo4, .logo5{
+    border: 1px solid #ddd;  
+    width: 250px; 
+    height: 110px;
+    text-align: center;
+}
+.wpr{
+    font-weight: bold;
+    margin-left: 16%;
+    align-items: center;
+    margin-left: 680px;
+    font-size: 22px;
+    margin-top: 5%;
+}
+.properties{
+    margin-left: 600px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+.sale{
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.builds{
+    height:500px;
+    width:910px;
+    margin-left: 20%;
+    background-image: url(build.avif);
+    background-repeat: no-repeat;
+}
+.apart{
+    background-color: rgba(0,92,179,255);
+    width: 400px;
+    height: 230px;
+    margin-top: 50px;
+    border: 1px black solid;
+    margin-left:64%;
+    margin-right:70px;
+    color:aliceblue;
+}
+.blue{
+    display: flex;
+    justify-content: space-between;
+} 
+.reff{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -10%;
+}
+.ics{  
+    margin-left:80%;
+    display: flex;
+}
+.heart{
+    margin-left:20px;
+    margin-top: -5px;
+}
+.build{
+    text-align: center;
+}
+.house{
+    text-align: center;
+    margin-top: 2%;
+    justify-content: space-around;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+.b1, .s1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 2px;
+    text-align: start;
+}
+.s1{
+    font-size: 10px;
+}
+.line{
+    margin: 50px;
+    margin-left: 289px;
+    margin-right: 280px;
+}
+.add{
+    text-align: center;
+    color: blue;
+}
+.view{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 10px;
+    margin: 2px;
+}
+.text1{
+    margin-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 420px;
+}
+.text2{
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-left: 420px;
+}
+.sign{
+    font-family: cursive;
+    margin-left: 420px;
+    margin-top: 40px;
+}
+.client{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.client1{
+    opacity: 0.5;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .dots{
+     text-align: center;
+ } 
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}  
+.active, .dot:hover {
+    background-color: #717171;
+}
+.image{
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: space-around;
+
+}
+.our{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.house1{
+    margin-top: 40px;
+    margin-left: 280px;
+}
+.house2{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.house3{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.house4{
+    margin-left: 750px;
+    margin-top: -290px;
+}
+.house5{
+    margin-left: 20px;
+    margin-top: -290px;
+}
+.house1_1{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2ch;
+    margin-top: -200px;
+    margin-left: 300px;   
+}
+.house1_2{
+    width: 10%;
+    margin-left: 300px;
+    color: aliceblue;
+}
+.house1_3{
+    margin-left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#2772b6;
+}
+.house1_4{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color:aliceblue   
+}
+.house2_1{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-top: -370px;
+    margin-left: 750px;
+}
+.house2_2{
+    width: 10%;
+    margin-left: 750px;
+    color: aliceblue;
+}
+.house2_3{
+ margin-left: 750px;   
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bold;
+ color: #2772b6;
+}
+.house3_1{
+    color:aliceblue;
+    margin-left: 1010px;
+    margin-top: -100px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.house3_2{
+    width: 10%;
+    margin-left: 1000px;
+    color: aliceblue; 
+}
+.house3_3{
+    margin-left: 1010px;  
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    color: #2772b6;  
+}
+.house4_1{
+    color:white;
+    margin-left: 750px;
+    margin-top: 200px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.house4_2{
+    width: 10%;
+    margin-left: 750px;
+    color: aliceblue; 
+}
+.house4_3{
+    margin-left: 750px;   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #2772b6;  
+}
+.house5_1{
+    color:aliceblue;
+    margin-left: 1020px;
+    margin-top: -100px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.house5_2{
+    width: 10%;
+    margin-left: 1020px;
+    color:whitesmoke
+}
+.house5_3{
+    margin-left: 1020px;   
+    margin-top: -7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#2772b6;
+}
+.cl{
+    margin-top: 60px;
+    background-color:#2596be ;
+}
+.every{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 38px;
+    padding: 30px;
+    font-weight: bold;
+}
+.ever{
+    text-align: center;
+    font-size: 10px;
+}
+.box{
+    margin-top: 10px;
+    margin-left: 520px;
+    margin-right: 600px;
+    padding: 20px;
+}
+.email_1{
+    height:30px; 
+    width:350px;        
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+.email_1::placeholder{
+    padding: 10%;
+}
+.button{
+    background-color: #1957a4; 
+    color: white; 
+    border-radius: 5px; 
+    height:30px; 
+    width:90px;
+    border: none;
+}
+.street{
+    filter: brightness(40%);
+}
+.detail{
+    margin-top: 60px;
+    margin-left: 300px;
+}
+.real{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:-18%;
+    position: relative;
+    color: white;
+}
+.wpl{
+    color: #015cb2;
+    margin-left: 40%;
+    margin-top:-18%;
+    font-size: 5ch;
+    font-weight: bolder;
+    position: relative;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: -5%;
+}
+.homes, .abouts, .agentss, .props, .blogs, .contacts{
+    margin-top: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    color: white;
+}
+.detail1, .detail2, .detail3, .detail4{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 300px;
+}
+.detail2, .detail3, .detail4{
+    margin-left: 80px;
+}
+.bottom{
+    background-color: #080a19;
+    margin-top: 40px;
+}
+.fb1, .tw1, .settings, .insta{
+    color: #8f9399;
+    padding-top: 40px;
+}
+.settings{
+    margin-left: 20%;
+    margin-right: 1%;
+}
+.fb1, .tw1{
+    margin-right: 1%;
+}
+.privacy{
+    margin-left: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#8f9399;
+    padding: 40px;
+    font-size: small;
+}
+.font_size{
+    font-size: 15px;
+    color: #272727;
+    margin-top: 150px;
+}
+.font_color{
+    color:#9e9e9e;
+    margin-top: 40px;
+    font-size: 15px;  
+}
